@@ -1,8 +1,0 @@
-<!--
- - Created by lukaszceran on 2018-10-27.
- -->
-
-<apex:page id="AccountData" standardController="Account">
-    <apex:dataTable value="{!Account}" var="Acc"/>
-    <apex:dataList var="Acc" value="{!Account}"/>
-</apex:page>
